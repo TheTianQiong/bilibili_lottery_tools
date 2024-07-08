@@ -83,7 +83,7 @@ class id_operation:
 
 
 if __name__ == '__main__':
-    import keyboard
+    print("本程序已在github上开源，地址为https://github.com/TheTianQiong/bilibili_lottery_tools\n受GPL开源协议保护，不得商用！")
     id = str(input("请输入要获取的动态id号："))
     cookie = str(input("请输入cookie值："))
     id_operation(id, cookie)
